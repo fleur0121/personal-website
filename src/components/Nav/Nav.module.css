@@ -1,0 +1,24 @@
+.navBar {
+  background-color: #f7dad9;
+  height: 5rem;
+}
+
+.navBarElements {
+  display: flex;
+  flex: auto;
+  flex-direction: row;
+  justify-content: space-between;
+  line-height: 5rem;
+}
+
+.navBarLinks {
+  display: flex;
+  flex: auto;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+a {
+  font-weight: bold;
+  font-size: larger;
+}
