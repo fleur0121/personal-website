@@ -1,24 +1,17 @@
 .navBar {
-  background-color: #f7dad9;
-  height: 5rem;
+  background-color: #c8b6a6;
+  height: 6rem;
 }
 
 .navBarElements {
   display: flex;
   flex: auto;
   flex-direction: row;
-  justify-content: space-between;
-  line-height: 5rem;
-}
-
-.navBarLinks {
-  display: flex;
-  flex: auto;
-  flex-direction: row;
   justify-content: space-around;
+  line-height: 6rem;
 }
 
 a {
   font-weight: bold;
-  font-size: larger;
+  font-size: 30px;
 }
