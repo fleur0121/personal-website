@@ -1,22 +1,12 @@
-a:visited {
-  color: #fff5ea;
-  text-decoration: none;
-}
-
-a:hover,
-a:active {
-  text-decoration: underline;
-}
-
-a {
-  color: rgb(145, 117, 93);
-  text-decoration: none;
-}
-
 :root {
   font-family: "Times New Roman", Times, serif;
 }
 
 body {
+  width: 100%;
   margin: 0;
+  padding: 0;
+  font-size: 18px;
+  font-weight: 400;
+  background-color: #f3eeea;
 }
