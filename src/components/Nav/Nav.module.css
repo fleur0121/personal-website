@@ -11,7 +11,17 @@
   line-height: 6rem;
 }
 
-a {
-  font-weight: bold;
-  font-size: 30px;
+.navBar a:visited {
+  color: #fff5ea;
+  text-decoration: none;
+}
+
+.navBar a:hover,
+.navBar a:active {
+  text-decoration: underline;
+}
+
+.navBar a {
+  color: rgb(145, 117, 93);
+  text-decoration: none;
 }

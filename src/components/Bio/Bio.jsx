@@ -2,7 +2,7 @@ import styles from "./Bio.module.css";
 
 const Bio = () => {
   return (
-    <div>
+    <div className={styles.container}>
       <h1>Fuka Nagata</h1>
       <div className={styles.bioContents}>
         <p>
