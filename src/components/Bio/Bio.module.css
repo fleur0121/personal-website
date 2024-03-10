@@ -1,0 +1,22 @@
+.images img {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+}
+
+.images {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.bioContents {
+  display: flex;
+  flex-direction: row;
+}
+
+.bioContents p {
+  text-wrap: wrap;
+  width: 50rem;
+}
