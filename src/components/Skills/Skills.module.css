@@ -6,40 +6,49 @@
 
 .container {
   padding: 4rem;
-  font-weight: 600;
+  font-weight: 800;
 }
 
-.list,
+.container h3 {
+  font-size: 25px;
+  font-weight: 600;
+  color: #8d7b68;
+}
+
+.list {
+  padding: 0;
+}
+
 .listProgramming,
 .listOtherSkills {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
-  gap: 10rem;
+  justify-content: center;
+  column-gap: 15rem;
+  row-gap: 10rem;
   align-items: center;
   list-style: none;
   flex-wrap: wrap;
-  width: 60rem;
-  padding: 0;
+  padding: 4rem 5rem 6rem 5rem;
 }
 
 .list li {
   text-decoration: none;
-  color: #a4907c;
+  color: #c8b6a6;
 }
 
 .skills {
-  display: flex;
-  justify-content: center;
+  width: 100%;
+  padding-top: 2rem;
 }
 
 .list a {
-  color: #a4907c;
+  color: #c8b6a6;
   text-decoration: none;
 }
 
 .list a:hover {
-  color: #a4907c;
+  color: #c8b6a6;
   text-decoration: underline;
 }
 

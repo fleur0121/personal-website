@@ -16,33 +16,39 @@ const Skills = () => {
       <h1>Skills</h1>
       <div className={style.skills}>
         <ul className={style.list}>
-          <div className={style.listProgramming}>
-            <li>HTML</li>
-            <li>JavaScript</li>
-            <li>CSS</li>
-            <li>
-              <a href="https://git-scm.com/">Git</a>
-            </li>
-            <li>
-              <a href="https://github.com/">Github</a>
-            </li>
-            <li>
-              <a href="https://react.dev/">React</a>
-            </li>
-            <li>
-              <a href="https://www.python.org/">Python</a>
-            </li>
-            <li>
-              <a href="https://www.python.org/">Java</a>
-            </li>
-            <li>
-              <a href="https://cplusplus.com/">C++</a>
-            </li>
+          <div className={style.programmingContainer}>
+            <h3>Programming</h3>
+            <div className={style.listProgramming}>
+              <li>HTML</li>
+              <li>JavaScript</li>
+              <li>CSS</li>
+              <li>
+                <a href="https://git-scm.com/">Git</a>
+              </li>
+              <li>
+                <a href="https://github.com/">Github</a>
+              </li>
+              <li>
+                <a href="https://react.dev/">React</a>
+              </li>
+              <li>
+                <a href="https://www.python.org/">Python</a>
+              </li>
+              <li>
+                <a href="https://www.python.org/">Java</a>
+              </li>
+              <li>
+                <a href="https://cplusplus.com/">C++</a>
+              </li>
+            </div>
           </div>
-          <div className={style.listOtherSkills}>
-            <li>Japanese</li>
-            <li>Piano</li>
-            <li>Baking</li>
+          <div className={style.otherSkillsContainer}>
+            <h3>Other Skills</h3>
+            <div className={style.listOtherSkills}>
+              <li>Japanese</li>
+              <li>Piano</li>
+              <li>Baking</li>
+            </div>
           </div>
 
           {/* <FontAwesomeIcon icon={faGitAlt} />
