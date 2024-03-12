@@ -34,7 +34,7 @@
 
 .list li {
   text-decoration: none;
-  color: #c8b6a6;
+  color: #a87c7c;
 }
 
 .skills {
@@ -42,18 +42,14 @@
   padding-top: 2rem;
 }
 
-.list a {
-  color: #c8b6a6;
-  text-decoration: none;
-}
-
-.list a:hover {
-  color: #c8b6a6;
-  text-decoration: underline;
-}
-
+.list a,
 .list a:active,
 .list a:visited {
   color: #a87c7c;
-  text-decoration: underline;
+  text-decoration: none;
+}
+
+.list a:active,
+.list a:hover {
+  color: #c8b6a6;
 }

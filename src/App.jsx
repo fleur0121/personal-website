@@ -1,6 +1,7 @@
 import NavBar from "@components/Nav/Nav";
 import Bio from "@components/Bio/Bio.jsx";
 import Skills from "@components/Skills/Skills";
+import Project from "@components/Project/Project";
 import "./App.css";
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
       <NavBar />
       <Bio />
       <Skills />
+      <Project />
     </>
   );
 }
