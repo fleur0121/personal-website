@@ -2,7 +2,7 @@ import styles from "./Project.module.css";
 
 const Project = () => {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id="project">
       <h1>Project</h1>
       <div className={styles.projectFlexy}>
         <h3>

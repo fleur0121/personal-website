@@ -1,0 +1,57 @@
+.container {
+  padding: 4rem;
+}
+
+.form {
+  padding: 4rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10rem;
+}
+
+.subject,
+.message {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.textForm {
+  width: 30rem;
+  height: 10rem;
+}
+
+.subjectForm {
+  width: 10rem;
+  height: 2rem;
+}
+
+.submit {
+  background-color: #a87c7c;
+  color: white;
+  width: 7rem;
+  height: 2.5rem;
+  border-radius: 7%;
+  font-weight: 500;
+}
+
+.mailto a:active,
+.mailto a:hover {
+  text-decoration: none;
+  color: #c8b6a6;
+  background-color: #543e3e;
+}
+
+.mailto,
+.mailto a:-webkit-any-link,
+.mailto a:visited {
+  color: white !important;
+  text-decoration: none !important;
+  background-color: #a87c7c;
+  padding: 1.2rem 2rem;
+  border-radius: 5%;
+}
