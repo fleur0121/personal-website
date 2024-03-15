@@ -12,7 +12,7 @@ import style from "./Skills.module.css";
 
 const Skills = () => {
   return (
-    <div className={style.container}>
+    <div className={style.container} id="skills">
       <h1>Skills</h1>
       <div className={style.skills}>
         <ul className={style.list}>

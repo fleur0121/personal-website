@@ -7,8 +7,8 @@ import style from "./Nav.module.css";
 const NavBar = () => {
   return (
     <Navbar className={style.navBar}>
-      <Nav className={style.navBarElements}>
-        <Nav.Link href="#bio">Home</Nav.Link>
+      <Nav className={style.navBarElements} id="nac">
+        <Nav.Link href="#nav">Home</Nav.Link>
         <Nav.Link href="#bio">Bio</Nav.Link>
         <Nav.Link href="#skills">Skills</Nav.Link>
         <Nav.Link href="#contact">Contact</Nav.Link>

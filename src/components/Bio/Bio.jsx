@@ -2,7 +2,7 @@ import styles from "./Bio.module.css";
 
 const Bio = () => {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id="bio">
       <h1>Introduction</h1>
       <div className={styles.bioContents}>
         <p>

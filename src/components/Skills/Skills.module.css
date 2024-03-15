@@ -43,7 +43,6 @@
 }
 
 .list a,
-.list a:active,
 .list a:visited {
   color: #a87c7c;
   text-decoration: none;
