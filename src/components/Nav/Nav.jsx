@@ -10,8 +10,8 @@ const NavBar = () => {
         <Nav.Link href="#nav">Home</Nav.Link>
         <Nav.Link href="#bio">Bio</Nav.Link>
         <Nav.Link href="#skills">Skills</Nav.Link>
+        <Nav.Link href="project">Project</Nav.Link>
         <Nav.Link href="#contact">Contact</Nav.Link>
-        <Nav.Link href="#thanks">Special Thanks</Nav.Link>
       </Nav>
     </Navbar>
   );
