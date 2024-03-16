@@ -1,4 +1,4 @@
-import styles from "./Bio.module.css";
+import styles from "src/components/Bio/Bio.module.css";
 
 const Bio = () => {
   return (

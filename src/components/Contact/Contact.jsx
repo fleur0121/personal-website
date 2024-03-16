@@ -1,6 +1,6 @@
-import Form from "/react-bootstrap/Form";
-import styles from "./Contact.module.css";
-import Mailto from "./Mailto.jsx";
+import Form from "react-bootstrap/Form";
+import styles from ".src/components/Contact/Contact.module.css";
+import Mailto from "src/components/Contact/Mailto.jsx";
 import { useState } from "react";
 
 function Contact() {

@@ -1,7 +1,7 @@
-import Nav from "/react-bootstrap/Nav";
-import Navbar from "/react-bootstrap/Navbar";
+import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar";
 
-import style from "./Nav.module.css";
+import style from "src/components/Nav/Nav.module.css";
 
 const NavBar = () => {
   return (
