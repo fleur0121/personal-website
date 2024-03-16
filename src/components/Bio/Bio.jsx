@@ -12,8 +12,8 @@ const Bio = () => {
           interest in coding. This is my first personal website that uses React!
         </p>
         <div className={styles.images}>
-          <img src="src/components/image/me.JPG" alt="me" title="me" />
-          <img src="src/components/image/dogs.JPG" alt="dogs" title="dogs" />
+          <img src="./image/me.JPG" alt="me" title="me" />
+          <img src="./image/dogs.JPG" alt="dogs" title="dogs" />
         </div>
       </div>
     </div>

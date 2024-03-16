@@ -10,7 +10,7 @@ const Project = () => {
         </h3>
         <div className={styles.infoFlexy}>
           <img
-            src="src/components/image/logo.png"
+            src="./image/logo.png"
             alt="FlexyCook-logo"
             title="FlexyCook-logo"
           />
