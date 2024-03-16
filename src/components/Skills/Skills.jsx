@@ -1,14 +1,4 @@
 import style from "src/components/Skills/Skills.module.css";
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import {
-//   faGitAlt,
-//   faJs,
-//   faCss3Alt,
-//   faJava,
-//   faReact,
-//   faHtml5,
-//   faPython,
-// } from "@fortawesome/free-solid-svg-icons";
 
 const Skills = () => {
   return (
