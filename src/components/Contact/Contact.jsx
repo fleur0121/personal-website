@@ -1,4 +1,4 @@
-import Form from "react-bootstrap/Form";
+import Form from "/react-bootstrap/Form";
 import styles from "./Contact.module.css";
 import Mailto from "./Mailto.jsx";
 import { useState } from "react";
