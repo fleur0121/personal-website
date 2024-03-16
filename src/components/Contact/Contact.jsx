@@ -1,5 +1,5 @@
 import Form from "react-bootstrap/Form";
-import styles from ".src/components/Contact/Contact.module.css";
+import styles from "src/components/Contact/Contact.module.css";
 import Mailto from "src/components/Contact/Mailto.jsx";
 import { useState } from "react";
 
