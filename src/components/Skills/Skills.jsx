@@ -1,4 +1,4 @@
-import style from "./Skills.module.css";
+import style from "src/components/Skills/Skills.module.css";
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 // import {
 //   faGitAlt,
