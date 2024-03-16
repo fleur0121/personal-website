@@ -15,3 +15,5 @@ Welcome! I am Fuka Nagata, majoring CS in Langara college. In this project, I ma
 - [CSS Module](https://github.com/css-modules/css-modules)
 
 - [Vite](https://vitejs.dev/)
+
+- [Node.js](https://nodejs.org/en)
