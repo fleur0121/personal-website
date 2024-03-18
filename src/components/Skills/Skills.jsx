@@ -25,7 +25,7 @@ const Skills = () => {
                 <a href="https://www.python.org/">Python</a>
               </li>
               <li>
-                <a href="https://www.python.org/">Java</a>
+                <a href="https://www.java.com/ja/">Java</a>
               </li>
               <li>
                 <a href="https://cplusplus.com/">C++</a>
