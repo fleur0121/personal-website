@@ -4,7 +4,7 @@
 
 .images img {
   width: 8rem;
-  height: 8rem;
+  height: auto;
   border-radius: 50%;
 }
 
