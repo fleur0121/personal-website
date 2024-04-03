@@ -29,6 +29,7 @@ function Contact() {
             className={styles.subjectForm}
             value={subject}
             onChange={handleSubjectChange}
+            label="subject"
           />
         </Form.Group>
         <Form.Group
@@ -38,7 +39,12 @@ function Contact() {
           onChange={handleMessageChange}
         >
           <Form.Label>Message:</Form.Label>
-          <Form.Control as="textarea" rows={3} className={styles.textForm} />
+          <Form.Control
+            as="textarea"
+            rows={3}
+            className={styles.textForm}
+            aria-label="message"
+          />
         </Form.Group>
         <Mailto subject={subject} body={message} children="Submit" />
       </Form>
